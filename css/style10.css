@@ -1,0 +1,15 @@
+/*
+    selector:pseudo-class
+*/
+
+a{
+    font-size: 100px;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: greenyellow;
+}

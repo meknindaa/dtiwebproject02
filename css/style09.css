@@ -1,0 +1,17 @@
+/*
+    seletor::pseudo-element
+*/
+
+h1::first-letter{
+    font-size: 100px;
+    color: red;
+    background-color: yellow;
+}
+
+h3::before{
+    content: url(../images/img01.png);
+}
+
+h3::after{
+    content: url(../images/img02.png);
+}
